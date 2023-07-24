@@ -5,12 +5,13 @@
 Este projeto tem como finalidade coletar os dados do Cadastro Nacional da Pessoa Jurídica (CNPJ) que é um banco de dados gerenciado pela Secretaria Especial da Receita Federal do Brasil (RFB), Estes dados se tratam de dados cadastrais das pessoas jurídicas e outras entidades de interesse das administrações tributárias da União, dos Estados, do Distrito Federal e dos Municípios. No portal a periodicidade de atualização dos dados é mensal.
 
 ## Desenho da Arquitetura 
-
+![ETL-Receita-Federal-Arquitetura](https://github.com/matheus-conrado/etl-receita-federal-cnpj/blob/master/etl-receita-federal-cnpj.png?raw=true)
 ## Tecnologias Utilizadas
 
 Para este projeto foram utilizados as seguintes tecnologias:
 - Spark
 - Python
+- Kafka
 - AWS:
   - S3
 - Docker
