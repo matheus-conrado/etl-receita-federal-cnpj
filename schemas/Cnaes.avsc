@@ -1,0 +1,17 @@
+{
+    "type": "record",
+    "name": "Cnaes",
+    "fields": [
+        {
+            "name": "userID",
+            "type": "string",
+            "doc": "User ID of a web app"
+        },
+        {
+            "name": "customerName",
+            "type": "string",
+            "doc": "Customer Name",
+            "default": "Test User"
+        }
+    ]
+}
