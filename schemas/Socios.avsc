@@ -1,0 +1,61 @@
+{
+    "type": "record",
+    "name": "Socios",
+    "fields": [
+        {
+            "name": "num_cnpj_basico",
+            "type": "string",
+            "doc": "NÚMERO BASE DE INSCRIÇÃO NO CNPJ (CADASTRO NACIONAL DA PESSOA JURÍDICA)"
+        },
+        {
+            "name": "des_identificador_socio",
+            "type": "string",
+            "doc": "CÓDIGO DO IDENTIFICADOR DE SÓCIO;1 – PESSOA JURÍDICA;2 – PESSOA FÍSICA;3 – ESTRANGEIRO"
+        },
+        {
+            "name": "des_nome_razao_socio",
+            "type": "string",
+            "doc": "NOME DO SÓCIO PESSOA FÍSICA OU A RAZÃO SOCIAL E/OU NOME EMPRESARIAL DA PESSOA JURÍDICA E/OU NOME DO SÓCIO/RAZÃO SOCIAL DO SÓCIO ESTRANGEIRO"
+        },
+        {
+            "name": "des_cpf_cnpj_socio",
+            "type": "string",
+            "doc": "CPF OU CNPJ DO SÓCIO (SÓCIO ESTRANGEIRO NÃO TEM ESTA INFORMAÇÃO)."
+        },
+        {
+            "name": "idt_cod_qualificao_socios",
+            "type": "string",
+            "doc": "CÓDIGO DA QUALIFICAÇÃO DO SÓCIO"
+        },
+        {
+            "name": "dat_data_entrada_sociedade",
+            "type": "string",
+            "doc": "DATA DE ENTRADA NA SOCIEDADE"
+        },
+        {
+            "name": "idt_cod_pais",
+            "type": "string",
+            "doc": "CÓDIGO PAÍS DO SÓCIO ESTRANGEIRO"
+        },
+        {
+            "name": "des_doc_representante_legal",
+            "type": "string",
+            "doc": "NÚMERO DO CPF DO REPRESENTANTE LEGAL"
+        },
+        {
+            "name": "des_nome_representante_legal",
+            "type": "string",
+            "doc": "NOME DO REPRESENTANTE LEGAL"
+        },
+        {
+            "name": "cod_qualificacao_representante_legal",
+            "type": "string",
+            "doc": "CÓDIGO DA QUALIFICAÇÃO DO REPRESENTANTE LEGAL"
+        },
+        {
+            "name": "des_faixa_etaria",
+            "type": "string",
+            "doc": "CÓDIGO CORRESPONDENTE À FAIXA ETÁRIA DO SÓCIO"
+        }
+    ]
+}

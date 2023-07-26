@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "name": "Qualificacoes",
+    "fields": [
+        {
+            "name": "idt_cod_qualificao_socios",
+            "type": "string",
+            "doc": "CÓDIGO DA QUALIFICAÇÃO DO SÓCIO"
+        },
+        {
+            "name": "des_qualificao_socios",
+            "type": "string",
+            "doc": "NOME DA QUALIFICAÇÃO DO SÓCIO"
+        }
+    ]
+}

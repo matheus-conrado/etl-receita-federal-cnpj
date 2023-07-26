@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jupyter_spark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: etl_receita_federal
+    ports:
+      - "8888:8888"

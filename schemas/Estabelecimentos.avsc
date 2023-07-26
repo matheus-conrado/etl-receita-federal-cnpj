@@ -1,0 +1,156 @@
+{
+    "type": "record",
+    "name": "Estabelecimentos",
+    "fields": [
+        {
+            "name": "num_cnpj_basico",
+            "type": "string",
+            "doc": "NÚMERO BASE DE INSCRIÇÃO NO CNPJ (OITO PRIMEIROS DÍGITOS DO CNPJ)."
+        },
+        {
+            "name": "num_cnpj_ordem",
+            "type": "string",
+            "doc": "NÚMERO DO ESTABELECIMENTO DE INSCRIÇÃO NO CNPJ (DO NONO ATÉ O DÉCIMO SEGUNDO DÍGITO DO CNPJ)."
+        },
+        {
+            "name": "num_cnpj_dv",
+            "type": "string",
+            "doc": "DÍGITO VERIFICADOR DO NÚMERO DE INSCRIÇÃO NO CNPJ (DOIS ÚLTIMOS DÍGITOS DO CNPJ)."
+        },
+        {
+            "name": "cod_identificador_matriz_filial",
+            "type": "string",
+            "doc": "CÓDIGO DO IDENTIFICADOR MATRIZ/FILIAL;1 – MATRIZ;2 – FILIAL"
+        },
+        {
+            "name": "des_nome_fantasia",
+            "type": "string",
+            "doc": "CORRESPONDE AO NOME FANTASIA"
+        },
+        {
+            "name": "cod_situacao_cadastral",
+            "type": "string",
+            "doc": "CÓDIGO DA SITUAÇÃO CADASTRAL;01 – NULA;2 – ATIVA;3 – SUSPENSA;4 – INAPTA;08 – BAIXADA"
+        },
+        {
+            "name": "dat_data_situacao_cadastral",
+            "type": "string",
+            "doc": "DATA DO EVENTO DA SITUAÇÃO CADASTRA"
+        },
+        {
+            "name": "idt_cod_motivo_situacao_cadastral",
+            "type": "string",
+            "doc": "CÓDIGO DO MOTIVO DA SITUAÇÃO CADASTRAL"
+        },
+        {
+            "name": "des_nome_cidade_exterior",
+            "type": "string",
+            "doc": "NOME DA CIDADE NO EXTERIOR"
+        },
+        {
+            "name": "idt_cod_pais",
+            "type": "string",
+            "doc": "CÓDIGO DO PAIS"
+        },
+        {
+            "name": "dat_data_inicio_atividade",
+            "type": "string",
+            "doc": "DATA DE INÍCIO DA ATIVIDADE"
+        },
+        {
+            "name": "cod_cnae_fiscal_principal",
+            "type": "string",
+            "doc": "CÓDIGO DA ATIVIDADE ECONÔMICA PRINCIPAL DO ESTABELECIMENTO"
+        },
+        {
+            "name": "cod_cnae_fiscal_secundario",
+            "type": "string",
+            "doc": "CÓDIGO DA(S) ATIVIDADE(S) ECONÔMICA(S) SECUNDÁRIA(S) DO ESTABELECIMENTO"
+        },
+        {
+            "name": "des_tipo_logradouro",
+            "type": "string",
+            "doc": "DESCRIÇÃO DO TIPO DE LOGRADOURO"
+        },
+        {
+            "name": "des_logradouro",
+            "type": "string",
+            "doc": "NOME DO LOGRADOURO ONDE SE LOCALIZA O ESTABELECIMENTO."
+        },
+        {
+            "name": "num_numero",
+            "type": "string",
+            "doc": "NÚMERO ONDE SE LOCALIZA O ESTABELECIMENTO. QUANDO NÃO HOUVER PREENCHIMENTO DO NÚMERO HAVERÁ ‘S/N’."
+        },
+        {
+            "name": "des_complemento",
+            "type": "string",
+            "doc": "COMPLEMENTO PARA O ENDEREÇO DE LOCALIZAÇÃO DO ESTABELECIMENTO"
+        },
+        {
+            "name": "des_bairro",
+            "type": "string",
+            "doc": "BAIRRO ONDE SE LOCALIZA O ESTABELECIMENTO."
+        },
+        {
+            "name": "des_cep",
+            "type": "string",
+            "doc": "CÓDIGO DE ENDEREÇAMENTO POSTAL REFERENTE AO LOGRADOURO NO QUAL O ESTABELECIMENTO ESTA LOCALIZADO"
+        },
+        {
+            "name": "des_uf",
+            "type": "string",
+            "doc": "SIGLA DA UNIDADE DA FEDERAÇÃO EM QUE SE ENCONTRA O ESTABELECIMENTO"
+        },
+        {
+            "name": "des_municipio",
+            "type": "string",
+            "doc": "CÓDIGO DO MUNICÍPIO DE JURISDIÇÃO ONDE SE ENCONTRA O ESTABELECIMENTO"
+        },
+        {
+            "name": "des_ddd_um",
+            "type": "string",
+            "doc": "CONTÉM O DDD 1"
+        },
+        {
+            "name": "des_telefone_um",
+            "type": "string",
+            "doc": "CONTÉM O NÚMERO DO TELEFONE 1"
+        },
+        {
+            "name": "des_ddd_dois",
+            "type": "string",
+            "doc": "CONTÉM O DDD 2"
+        },
+        {
+            "name": "des_telefone_dois",
+            "type": "string",
+            "doc": "CONTÉM O NÚMERO DO TELEFONE 2"
+        },
+        {
+            "name": "des_ddd_fax",
+            "type": "string",
+            "doc": "CONTÉM O DDD FAX"
+        },
+        {
+            "name": "des_fax",
+            "type": "string",
+            "doc": "CONTÉM O NÚMERO DO FAX"
+        },
+        {
+            "name": "des_coreio_eletronico",
+            "type": "string",
+            "doc": "CONTÉM O E-MAIL DO CONTRIBUINTE"
+        },
+        {
+            "name": "des_situacao_especial",
+            "type": "string",
+            "doc": "SITUAÇÃO ESPECIAL DA EMPRESA"
+        },
+        {
+            "name": "dat_data_situacao_especial",
+            "type": "string",
+            "doc": "DATA EM QUE A EMPRESA ENTROU EM SITUAÇÃO ESPECIAL"
+        }
+    ]
+}

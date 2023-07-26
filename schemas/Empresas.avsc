@@ -4,7 +4,7 @@
     "fields": [
         {
             "name": "num_cnpj_basico",
-            "type": "double",
+            "type": "string",
             "doc": "NÚMERO BASE DE INSCRIÇÃO NO CNPJ (OITO PRIMEIROS DÍGITOS DO CNPJ)."
         },
         {
@@ -13,8 +13,8 @@
             "doc": "NOME EMPRESARIAL DA PESSOA JURÍDICA"
         },
         {
-            "name": "cod_natureza_juridica",
-            "type": "double",
+            "name": "idt_cod_natureza_juridica",
+            "type": "string",
             "doc": "CÓDIGO DA NATUREZA JURÍDICA"
         },
         {
@@ -29,7 +29,7 @@
         },
         {
             "name": "num_porte_empresa",
-            "type": "double",
+            "type": "string",
             "doc": "CÓDIGO DO PORTE DA EMPRESA:;00 – NÃO INFORMADO;01 - MICRO EMPRESA;03 - EMPRESA DE PEQUENO PORTE;05 - DEMAIS"
         },
         {

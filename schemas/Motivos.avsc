@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "name": "Motivos",
+    "fields": [
+        {
+            "name": "idt_cod_motivo_situacao_cadastral",
+            "type": "string",
+            "doc": "CÓDIGO DO MOTIVO DA SITUAÇÃO CADASTRAL"
+        },
+        {
+            "name": "des_motivo_situacao_cadastral",
+            "type": "string",
+            "doc": "NOME DO MOTIVO DA SITUAÇÃO CADASTRAL"
+        }
+    ]
+}

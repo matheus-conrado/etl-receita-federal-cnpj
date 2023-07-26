@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "name": "Municipios",
+    "fields": [
+        {
+            "name": "idt_cod_municipio",
+            "type": "string",
+            "doc": "CÓDIGO DO MUNICÍPIO"
+        },
+        {
+            "name": "des_municipio",
+            "type": "string",
+            "doc": "NOME DO MUNICÍPIO"
+        }
+    ]
+}

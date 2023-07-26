@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "name": "Paises",
+    "fields": [
+        {
+            "name": "idt_cod_pais",
+            "type": "string",
+            "doc": "CÓDIGO DO PAÍS"
+        },
+        {
+            "name": "des_pais",
+            "type": "string",
+            "doc": "NOME DO PAÍS"
+        }
+    ]
+}
