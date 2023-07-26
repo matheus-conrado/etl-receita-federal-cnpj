@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "name": "Naturezas",
+    "fields": [
+        {
+            "name": "idt_cod_natureza_juridica",
+            "type": "string",
+            "doc": "CÓDIGO DA NATUREZA JURÍDICA"
+        },
+        {
+            "name": "des_natureza_juridica",
+            "type": "string",
+            "doc": "NOME DA NATUREZA JURÍDICA"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "name": "Cnaes",
+    "fields": [
+        {
+            "name": "idt_cod_cnaes",
+            "type": "string",
+            "doc": "CÓDIGO DA ATIVIDADE ECONÔMICA"
+        },
+        {
+            "name": "des_cnaes",
+            "type": "string",
+            "doc": "NOME DA ATIVIDADE ECONÔMICA"
+        }
+    ]
+}

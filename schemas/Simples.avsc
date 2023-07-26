@@ -1,0 +1,41 @@
+{
+    "type": "record",
+    "name": "Simples",
+    "fields": [
+        {
+            "name": "num_cnpj_basico",
+            "type": "double",
+            "doc": "NÚMERO BASE DE INSCRIÇÃO NO CNPJ (OITO PRIMEIROS DÍGITOS DO CNPJ)."
+        },
+        {
+            "name": "des_opcao_simples",
+            "type": "string",
+            "doc": "INDICADOR DA EXISTÊNCIA DA OPÇÃO PELO SIMPLES;S - SIM;MN - NÃO;EM BRANCO – OUTROS"
+        },
+        {
+            "name": "dat_data_opcao_simples",
+            "type": "string",
+            "doc": "DATA DE OPÇÃO PELO SIMPLES"
+        },
+        {
+            "name": "dat_data_exclusao_simples",
+            "type": "string",
+            "doc": "DATA DE EXCLUSÃO DO SIMPLES"
+        },
+        {
+            "name": "des_opcao_mei",
+            "type": "string",
+            "doc": "INDICADOR DA EXISTÊNCIA DA OPÇÃO PELO MEI;S - SIM;N - NÃO;EM BRANCO - OUTROS"
+        },
+        {
+            "name": "dat_data_opcao_mei",
+            "type": "string",
+            "doc": "DATA DE OPÇÃO PELO MEI"
+        },
+        {
+            "name": "dat_data_exclusao_mei",
+            "type": "string",
+            "doc": "DATA DE EXCLUSÃO DO MEI"
+        }
+    ]
+}
